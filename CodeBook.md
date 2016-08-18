@@ -11,10 +11,10 @@
 * training and test data merged (appended rows)
 * Column headings from the features.txt applied to merged data
 * All column heading with mean() and std() extracted - these correspond to 33 variables as defined in the readme.txt
-* Converted subjectid to a 1-6 level factor and applied Activity Labels as factor leves
+* Converted subjectid to a 1-6 level factor and applied Activity Labels as factor levels
 * Updated column named from mean to MEAN, std to STDEV, gyro to Gyroscope, Acc to acceleration, Mag to Magnitude
 * changed column names with BodyBody to Body and removed all dots from column names
-* Aggregated data with ACtivity and SubjectID group by and mean of all variables are the summary
+* Aggregated data with Activity and SubjectID group by and mean of all variables are the summary
 * tidydata crated and all column names updated to prefix avg to show that they are grouped means
 * tidydata ordered on Activity and Subjectid
 
