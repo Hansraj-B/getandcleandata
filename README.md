@@ -1,9 +1,3 @@
----
-title: "README"
-output: github_document
----
-
-
 ## Overview
 
 Getting and Cleaning Data Course Project: This README document explains the working of the **run_analysis.R** script. The entire script is run progressively until the final output **tidydata.txt** is created. The steps and the code snippets below explain the process.
