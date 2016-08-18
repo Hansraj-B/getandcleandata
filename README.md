@@ -55,7 +55,7 @@ act_train<- read.table(file.path(dataDir,"train", "y_train.txt"), col.names='act
 sub_train <- read.table(file.path(dataDir,"train", "subject_train.txt"), col.names='subjectid',header=FALSE, stringsAsFactors=FALSE)
 ```
 
-####G.2 Get test data (data, activity, subject) with column name obtained from features####
+####G.3 Get test data (data, activity, subject) with column name obtained from features####
 ```
 data_test <- read.table(file.path(dataDir,"test", "X_test.txt"), col.names=featurenames$name, header=FALSE, stringsAsFactors=FALSE)
 act_test <- read.table(file.path(dataDir,"test", "y_test.txt"), col.names='activitycode',header=FALSE, stringsAsFactors=FALSE)
