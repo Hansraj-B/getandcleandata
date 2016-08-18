@@ -1,5 +1,5 @@
 #A. Set working ddirectory
-setwd("~/Data Scientist/Projects/Project3")
+#setwd("~/Data Scientist/Projects/Project3")
 #B. clear memory
 rm(list=ls())
 
